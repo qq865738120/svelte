@@ -17,7 +17,7 @@ First, add a script tag to your component and declare a `name` variable:
 Then, we can refer to `name` in the markup:
 
 ```html
-<h1>Hello {name}!</h1>
+<h1>Hello {name.toUpperCase()}!</h1>
 ```
 
 Inside the curly braces, we can put any JavaScript we want. Try changing `name` to `name.toUpperCase()` for a shoutier greeting.
